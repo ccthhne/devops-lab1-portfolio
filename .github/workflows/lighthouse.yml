@@ -16,8 +16,8 @@ jobs:
         uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
-            ./index.html
-            ./about.html
-            ./contact.html
+            https://ccthhne.github.io/devops-lab1-portfolio/
+            https://ccthhne.github.io/devops-lab1-portfolio/about.html
+            https://ccthhne.github.io/devops-lab1-portfolio/contact.html
           uploadArtifacts: true
           temporaryPublicStorage: true
